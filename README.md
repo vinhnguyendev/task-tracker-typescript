@@ -5,10 +5,10 @@
 A simple Task Tracker application built with Vite, React.js, and TypeScript. The main goal of this project is to practice the implementation of TypeScript in a React.js application.
 
 ## Technologies Used:
-[Vite](https://vitejs.dev): A fast build tool for modern web development.
-[React.js](https://react.dev): A popular JavaScript library for building user interfaces.
-[TypeScript](https://www.typescriptlang.org): A statically typed superset of JavaScript.
-[CSS Modules](https://github.com/css-modules/css-modules): For modular and scoped CSS.
+- [Vite](https://vitejs.dev): A fast build tool for modern web development.
+- [React.js](https://react.dev): A popular JavaScript library for building user interfaces.
+- [TypeScript](https://www.typescriptlang.org): A statically typed superset of JavaScript.
+- [CSS Modules](https://github.com/css-modules/css-modules): For modular and scoped CSS.
 
 ## Features
 
