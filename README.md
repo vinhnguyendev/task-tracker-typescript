@@ -1,32 +1,38 @@
-<<<<<<< HEAD
-# task_tracker_typescript
-Created simple task tracking app using React.js and TypeScript, to practice use TypeScript with simple React.js app.
-=======
-# React + TypeScript + Vite
+# Task Tracker App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Screenshot](src/assets/Screenshot 01.png)
 
-Currently, two official plugins are available:
+A simple Task Tracker application built with Vite, React.js, and TypeScript. The main goal of this project is to practice the implementation of TypeScript in a React.js application.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used:
+[Vite](https://vitejs.dev): A fast build tool for modern web development.
+[React.js](https://react.dev): A popular JavaScript library for building user interfaces.
+[TypeScript](https://www.typescriptlang.org): A statically typed superset of JavaScript.
+[CSS Modules](https://github.com/css-modules/css-modules): For modular and scoped CSS.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Add new tasks with a title and optional description.
+- Mark tasks as completed.
+- Delete tasks.
+- Filter tasks by their completion status.
+- Responsive design for mobile and desktop.
 
-- Configure the top-level `parserOptions` property like this:
+## Getting Started
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+To get started with this project, follow these steps:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
->>>>>>> f255633 (Created a mvp)
+1. Clone the repository to your local machine:
+
+`git clone https://github.com/vinhnguyendev/task-tracker-typescript.git`
+
+2. Navigate to the project directory:
+`cd task-tracker-typescript`
+
+3. Install the project dependencies:
+`npm install`
+
+4. Start the development server:
+`npm run dev`
+
+Open your browser and visit http://localhost:3000 or  to use the Task Tracker app.
