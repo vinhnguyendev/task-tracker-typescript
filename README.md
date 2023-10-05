@@ -1,6 +1,6 @@
 # Task Tracker App
 
-![App Screenshot](src/assets/Screenshot 01.png)
+![App Screenshot](src/assets/Screenshot.png)
 
 A simple Task Tracker application built with Vite, React.js, and TypeScript. The main goal of this project is to practice the implementation of TypeScript in a React.js application.
 
